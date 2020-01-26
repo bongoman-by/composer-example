@@ -1,0 +1,21 @@
+{
+    "name": "bongoman/composer-examle-package",
+    "description": "Example",
+    "type": "project",
+    "require": {
+        "php": "7.0"
+    },
+    "license": "GPL-3",
+    "authors": [
+        {
+            "name": "Sergio Bongoman",
+            "email": "bongoman@tut.by"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "bongoman\\parser\\": "src"
+        }
+    },
+    "minimum-stability": "stable"
+}
